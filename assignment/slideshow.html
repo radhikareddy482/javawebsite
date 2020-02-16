@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>how to create slide show</title>
+<script type = "text/javascript">
+var image1 = new Image()
+image1.src = "C:\html projects\assignment\images\1-1.jpg"
+var image2 = new Image()
+image2.src = "C:\html projects\assignment\images\6Freedom-fighters_Vidya_Google.jpg"
+var image3 = new Image()
+image3.src = "C:\html projects\assignment\images\Bal-Ganga-dhar-Tilak.jpg"
+var image4 = new Image()
+image4.src = "C:\html projects\assignment\images\download.jpg"
+var image5 = new Image()
+image5.src = "C:\html projects\assignment\images\images.jpg"
+var image6 = new Image()
+image6.src = "C:\html projects\assignment\images\main-qimg-d0ddd7878c80fb09ba5dc75ce3bfb197.jpg"
+var image7 = new Image()
+image7.src = "C:\html projects\assignment\images\Sardar Vallabhbhai Patel.jpg"
+var image8 = new Image()
+image8.src = "C:\html projects\assignment\images\sarojininaidu.jpg"
+</script>
+<style>
+body{background-color:blue; margin:0 auto; text-align:center}
+</style>
+</head>
+<body>
+<img src = "C:\html projects\assignment\images\1-1.jpg" name = "slideshow" alt = "imageslideshow">
+<script type = "text/javascript">
+var numberImage = 1
+function Image()
+{
+document.images.slideshow.src = eval("image"+numberImage+".src)
+if(numberImage < 8)
+numberImage = numberImage+1
+else
+numberImage = 1
+setTimeout("myslide()",4500)
+}
+Image()
+</script>
+</body>
+</html>

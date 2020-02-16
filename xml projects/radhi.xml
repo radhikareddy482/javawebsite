@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE aliens SYSTEM "radhi1.dtd">
+<aliens>
+<alien aid="A1" lang="java">
+
+
+</alien>
+<alien aid='A2' lang="python">
+<name>rana</name>
+<bro>ranadheer reddy</bro>
+</alien>
+</aliens>

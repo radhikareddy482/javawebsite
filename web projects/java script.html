@@ -1,0 +1,61 @@
+<html>
+<head>
+
+<script>
+function sum()
+{
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c=a+b;
+document.getElementById("answer").value=c;
+} 
+function alertmsg()
+{
+alert("please be alert");
+}
+function getconfirm()
+{
+a=prompt("enter your name");
+confirm(a);
+}
+function getprompt()
+{
+a=prompt("enter your name");
+prompt(a);
+}
+function form_validation()
+{
+var name=document.myform.name.value;
+if(name==null||name=="")
+{
+alert("Name cant be blank");
+return false;
+}
+}
+
+
+
+</script>
+</head>
+<body>
+<p style="color.violet;">==========</p><br>
+<p style="color.black;">Add of 2 integers</p><br>
+Enter A value: <input id="first"><br>
+Enter B value: <input id="second"><br>
+<button onclick="sum()">Add</button><br>
+Answer: <input id="answer">
+<p style="color.violet;">==========</p><br>
+<p style="color.black;">java dialogue box</p><br>
+<input type="button" value="click me" onclick="alertmsg()"/><br>
+<input type="button" value="get confirm here" onclick="getconfirm()"/><br>
+<input type="button" value="get prompt" onclick="getprompt()"/><br>
+<p style="color.violet;">==========</p><br>
+<p style="color.black;">form validation</p><br>
+<form name="myform" method="post" onsubmit="form_validation()">
+Name: <input type="text" name="name"/>
+<input type="submit" value="submit"/>
+</form>
+
+</body>
+</html>

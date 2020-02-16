@@ -1,0 +1,21 @@
+<html>
+<script>
+function calculate(){
+p = document.getElementById("p").value;
+n = document.getElementById("n").value;
+r = document.getElementById("r").value;
+t = document.getElementById("t").value;
+
+result = document.getElementById("result");
+result.innerHTML = "the interest is "+(p*Math.pow((1+(r/(n*100))),(n*t)));
+}
+</script>
+<body>
+Amount: <input id="p">
+rate: <input id="n">
+years: <input id="r">
+time: <input id="t">
+<button onclick="calculate()">calculate</button>
+<p id="result"></p>
+</body> 
+</html>

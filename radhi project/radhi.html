@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>name conversions</h2>
+
+<p>JavaScript code blocks are written between { and }</p>
+
+<button type="button" onclick="Type_Name()">Click Me!</button>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+function Type_Name() {
+var name="radhika";
+var stringLength=name.length;
+var lastChar=name.charAt(stringLength-1);
+if(name=="null"||name=="")
+{
+       window.alert("name can't be blank");
+       return false;
+}
+else
+{
+if(lastChar=="a")
+{
+document.getElementById("demo1").innerHTML="arijit singh";
+}
+else if(lastChar=="b")
+{
+document.getElementById("demo2").innerHTML="banu";
+}
+}
+}
+
+</script>
+
+</body>
+</html>

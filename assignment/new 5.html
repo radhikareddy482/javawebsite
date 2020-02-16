@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Click the button to join two strings into one new string.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var str1 = "trans";
+    var str2 = "por";
+	var str3 = "tation";
+    var res = str1.concat(str2,str3);
+    document.getElementById("demo").innerHTML = res;
+}
+</script>
+
+</body>
+</html>

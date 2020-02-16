@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<name id="name1">
+First name: <input type="text"><br>
+<input type="submit" value="submit">
+</name>
+<button onclick="Type_Name()">Try it</button>
+<p id="demo"></p>
+
+<script>
+function Type_Name()
+{
+var x=document.getElementById("name1");
+var i;
+var lastChar;
+for(i=0; i<x.length;i++)
+{
+lastChar=x.charAt(stringLength-1);
+if(x=="null"||x=="")
+{
+       alert("name can't be blank");
+       return false;
+}
+else
+{
+if(lastChar=="a")
+{
+alert("arijit singh");
+}
+else if(lastChar=="b")
+{
+alert("banu");
+}
+}
+}
+}
+</script>
+
+
+</body>
+</html>

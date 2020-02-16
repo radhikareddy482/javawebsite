@@ -1,0 +1,31 @@
+<html>
+    <head>
+	<title>Web App for compound Interest Calculation</title>
+
+        <script>
+            function calculate()
+            {
+               var p = document.getElementById("p").value;
+                n = document.getElementById("n").value;
+                r = document.getElementById("r").value;
+				t= document.getElementById("t").value;
+                result = document.getElementById("result");
+                
+                result.innerHTML = "The interest is " +  (p* Math.pow((1 + (r/(n*100))), (n*t)));            
+				}
+				</script>
+    </head>
+
+    <body>
+        <h1>Simple Interest Calculation</h1>
+
+        Amount: <input id="p"><br/>
+        Rate: <input id="r"><br/>
+        No. of Years: <input id="n"><br/>
+		time: <input id="t"><br/>
+
+        <button onclick="calculate()">Calculate</button>
+
+        <p id="result"></p>
+    </body>
+</html>

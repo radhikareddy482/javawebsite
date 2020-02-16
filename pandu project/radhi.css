@@ -1,0 +1,138 @@
+html
+{
+background-color: lightgreen;
+}
+body
+{
+background-color: pink;
+margin: 0 auto;
+width: 2000px;
+font-family: sans-serif, arial, helvetica;
+}
+a{
+text-decoration: none;
+color: #373535;
+}
+
+.box
+{
+position: relative;
+float: left;
+text-align: center;
+margin: 15px 0;
+}
+
+.box img
+{
+position: relative;
+/*z-index: 1;*/
+margin-left: 15px;
+}
+.sq
+{
+position: relative;
+float:left;
+text-align: center;
+margin: 20px 0;
+}
+.sq img
+{
+position: relative;
+margin-left: 20px;
+width: 500px;
+}
+.rr
+{
+position: relative;
+float:left;
+text-align: center;
+margin: 50px 0;
+}
+.rr img
+{
+position: relative;
+margin-left: 50px;
+width: 500px;
+}
+.kk
+{
+position: relative;
+float:left;
+text-align: center;
+margin: 50px 0;
+}
+.kk img
+{
+position: relative;
+margin-left: 50px;
+width: 500px;
+}
+
+.mm
+{
+position: relative;
+float:left;
+text-align: center;
+margin: 30px 0;
+}
+.mm img
+{
+position: relative;
+margin-left: 30px;
+width: 1000px;
+}
+
+.oo{
+        position: relative;
+        text-align: center;
+	float: left;
+        margin: 90px 0;
+}
+
+.oo img{
+	position: relative;
+        margin-left: 90px;
+        width: 900px;
+}
+
+.ll{
+        position: relative;
+        text-align: center;
+	float: left;
+        margin: 100px 0;
+}
+
+.ll img{
+	position: relative;
+        margin-left: 100px;
+        width: 1000px;
+}
+
+.zz{
+        position: relative;
+        text-align: center;
+	float: left;
+        margin: 100px 0;
+}
+
+.zz img{
+	position: relative;
+        margin-left: 100px;
+        width: 1000px;
+}
+
+.ss{
+        position: relative;
+        text-align: center;
+	float: left;
+        margin: 100px 0;
+}
+
+.ss img{
+	position: relative;
+        margin-left: 100px;
+        width: 1000px;
+}
+
+
+
